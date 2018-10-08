@@ -92,15 +92,15 @@ function printQuote() {
         htmlString += quoteObject.year;
         htmlString += "</span>";
     }
-    //Check if there is a tag
+    //Check if there is tags (That way, if we remove the tag later, yhe code will still run)
     if (quoteObject.tags) {
-        htmlString += "<span class = 'tag'><i>";
+        htmlString += "<span class = 'tag'>";
         for (let i = 0; i < quoteObject.tags.length; i++) {
             htmlString += " #";
             htmlString += quoteObject.tags[i];
             htmlString += " ";
         }
-        htmlString += "</i></span>";
+        htmlString += "</span>";
     }
     htmlString += "</p>";
     let randomColor = getRandomColor();
