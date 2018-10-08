@@ -72,8 +72,7 @@ body {
   font-style: normal;
 }
 
-.tag:before {
-  content: " #";
+.tag {
   font-style: italic;
 }
 
