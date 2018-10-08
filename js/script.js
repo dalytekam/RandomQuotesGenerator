@@ -5,12 +5,12 @@
 let quotes = [{
         quote: "Your positive action combined with positive thinking results in success.",
         source: "Shiv Khera",
-        tags: ["succes", "Positive", "Thinking", "Action"]
+        tags: ["Succes", "Positive", "Thinking", "Action"]
     },
     {
         quote: "Change your life today. Don't gamble on the future, act now, without delay.",
         source: " Simone de Beauvoir",
-        tags: ["motivational", "life", "change", "today"]
+        tags: ["Motivational", "Life", "Change", "Today"]
     },
     {
         quote: "The inherent vice of capitalism is the unequal sharing of blessings. The inherent virtue of Socialism is the equal sharing of miseries.",
@@ -27,7 +27,7 @@ let quotes = [{
     {
         quote: "Being deeply loved by someone gives you strength, while loving someone deeply gives you courage.",
         source: "Lao Tzu",
-        tags: ["motivational", "life", "love"]
+        tags: ["Motivational", "Life", "Love"]
     },
     {
         quote: "Clear-eyed, we can understand that there will be war, and still strive for peace",
